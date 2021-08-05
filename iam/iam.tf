@@ -19,6 +19,6 @@ resource "aws_iam_user_group_membership" "BobSystem" {
 
   groups = [
     aws_iam_group.sysusers.name,
-   
+
   ]
 }
